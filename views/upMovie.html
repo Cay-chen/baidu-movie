@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/static/css/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/easyui/themes/icon.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="/static/css/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/static/css/easyui/locale/easyui-lang-zh_CN.js"></script>
+
+	<style type="text/css">
+		html, body, p, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,p {
+		 margin: 0; 
+		 padding: 0; 
+		 border: 0;
+		 outline: 0; 
+		 font-size: 100%;
+		 vertical-align: baseline;
+		 background: transparent; }
+		 li{list-style-type: none}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	<h4 style="text-align: center;margin-top: 15px;color: #7190e0">百度网盘资源上传</h4>
+	<div style="width: 900px;margin:15px auto;border: 2px solid #E0ECFF;padding: 15px;position: relative;">
+		<div >
+		<form id="fm" method="post" novalidate>  
+			<ui>
+				<div>
+					<li style="display: block;width: 300px;float: left;">
+					<label style="font-weight: 800;">豆瓣ID:</label>  
+					<input name="id"  class="easyui-validatebox" data-options="required:true" id="id1" >  
+					</li>
+					<a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-search" onclick="getDaouBanData()">获取资料</a>
+					<a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveUser()" style="margin-left: 40px">提交</a>
+				</div>
+				
+			<hr style=" height:1px;border:none;border-top:1px solid #E0ECFF;margin-top: 15px" />
+				<div style="width: 300px;float: left;">
+					
+					<li>
+					<label style="width: 80px;display: block;float: left;">电影名：</label>  
+					<input name="name" class="easyui-validatebox" data-options="required:true" id="name" >  
+					</li>
+					<br>
+
+					<li>
+					<label style="width: 80px;display: block;float: left;">电影类型：</label>  
+					<input name="subtype" class="easyui-validatebox" data-options="required:true" id="subtype" >  
+					</li>
+					<br>
+					<li>
+					<label style="width: 80px;display: block;float: left;">评分人数：</label>  
+					<input name="ratings_count" class="easyui-validatebox" data-options="required:true" id="ratings_count" >  
+					</li>
+					<br>
+
+					<li>
+					<label style="width: 80px;display: block;float: left;">影视类型：</label>  
+					<input name="genres" class="easyui-validatebox" data-options="required:true" id="genres" >  
+					</li>
+					<br>
+					<li>
+					<label style="width: 80px;display: block;float: left;">地方：</label>  
+					<input name="countries" class="easyui-validatebox" data-options="required:true" id="countries" >  
+					</li>
+									<br>
+
+					<li>
+					<label style="width: 80px;display: block;float: left;">年份：</label>  
+					<input name="year" class="easyui-validatebox" data-options="required:true" id="year" >  
+					</li>
+					
+				</div>
+				<div style="width: 300px;float: right;">
+					<li>
+					<label style="width: 80px;display: block;float: left;">主演：</label>  
+					<input name="act" class="easyui-validatebox" data-options="required:true" id="act" >  
+					</li>
+					<br>
+					<li>
+					<label style="width: 80px;display: block;float: left;">评分:</label>  
+					<input name="code" class="easyui-validatebox" data-options="required:true" id="code" >  
+					</li>
+					<br>
+					
+					<li>
+					<label style="width: 80px;display: block;float: left;">总共集数:</label>  
+					<input name="total_num" class="easyui-validatebox" data-options="required:true" id="total_num" >  
+					</li>
+					<br>
+
+					<li>
+					<label style="width: 80px;display: block;float: left;">又名：</label>  
+					<input name="other_name" class="easyui-validatebox" data-options="required:true" id="other_name" >  
+					</li>
+					<br>
+					
+
+					<li>
+					<label style="width: 80px;display: block;float: left;">图片地址:</label>  
+					<input name="img_url" class="easyui-validatebox" data-options="required:true" id="img_url" >  
+					</li>
+					
+					<br>
+					<li>
+					<label style="width: 80px;display: block;float: left;">导演：</label>  
+					<input name="director" class="easyui-validatebox" data-options="required:true" id="director" >  
+					</li>
+				</div>
+				<div style="clear: both;"> 
+					<br>
+					<li style="margin-top: 5px;clear: both;">
+						<label style="width: 80px;display: block;">简介：</label>  
+						<input name="log" class="easyui-validatebox" data-options="required:true" id="log" style="width: 100%;height: 40px" >  
+					</li>	
+				</div>
+				<div style="clear: both;"> 
+					<br>
+
+					<li>
+						<label style="width: 80px;display: block;float: left;">当前集数：</label>  
+						<input name="now_num" class="easyui-validatebox" data-options="required:true" id="now_num" >  
+					</li>
+										<br>
+
+					<li>
+						<label style="width: 80px;display: block;float: left;">百度地址：</label>  
+						<input name="baidu_url"  class="easyui-validatebox" data-options="required:true" id="baidu_url" style="width: 300px">  
+					</li>
+				</div>
+			</ui>
+		</form>
+	</div>
+</div>
+	
+	
+	
+</body>
+<script type="text/javascript">
+	function getDaouBanData(){
+		if($("#id1").val()==""){
+			alert("请填写豆瓣ID");
+			return;
+		}
+		$.getJSON("/api/getdouban?id="+$('#id1').val(),function(data){
+			$('#name').val(data.title);
+			$('#img_url').val(data.images.small);
+			if (data.subtype=="tv") {
+				$('#subtype').val("1");
+				$('#total_num').val(data.episodes_count);
+			}else{
+				$('#subtype').val("2");
+				$('#now_num').val("1");
+				$('#total_num').val("1");
+			}
+			$('#ratings_count').val(data.ratings_count);
+			$('#genres').val(data.genres);
+			$('#countries').val(data.countries);
+			$('#log').val(data.summary);
+			$('#other_name').val(data.aka);
+			$('#code').val(data.rating.average);
+			var cat=""
+			for (var i=0;i< data.casts.length; i++) {
+				if (cat==""){
+					cat=data.casts[i].name
+				}else{
+					cat=cat+"/"+data.casts[i].name
+				}
+			}
+			var det=""
+			for (var i=0;i< data.directors.length; i++) {
+				if (det==""){
+					det=data.directors[i].name
+				}else{
+					det=det+"/"+data.directors[i].name
+
+				}
+			}	
+			$('#act').val(cat);
+			$('#year').val(data.year);
+			$('#director').val(det);
+		});
+	}
+	function saveUser(){
+			$('#fm').form('submit',{
+				url:"/api/upmovie",
+				onSubmit: function(){
+					return $(this).form('validate');
+				},
+				success: function(result){
+					var result = eval('('+result+')');
+					if (result.success){
+					$('#fm').form('clear');
+
+					} else {
+						$.messager.show({
+							title: '上传提示',
+							msg: result.msg
+						});
+					}
+				}
+			});
+		}
+</script>
+</html>

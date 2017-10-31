@@ -1,0 +1,241 @@
+2017/10/28 00:48:30 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 01:06:41 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] the request url is  /api/upmovie
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] Handler crashed with error assignment to entry in nil map
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] D:/Go/src/runtime/hashmap_fast.go:600
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/up_data_movie.go:36
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 01:06:48 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 09:58:52 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] the request url is  /api/upmovie
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] Handler crashed with error assignment to entry in nil map
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] D:/Go/src/runtime/hashmap_fast.go:600
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/up_data_movie.go:42
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 10:00:08 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 10:01:56 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] the request url is  /api/upmovie
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] Handler crashed with error assignment to entry in nil map
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/hashmap_fast.go:600
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/up_data_movie.go:42
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 10:01:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 10:03:04 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 10:07:58 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 14:38:15 [D] [controller.go:263] template Execute err: html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:15 [E] [server.go:2619] html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:17 [D] [controller.go:263] template Execute err: html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:17 [E] [server.go:2619] html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:18 [D] [controller.go:263] template Execute err: html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:18 [E] [server.go:2619] html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:39 [D] [controller.go:263] template Execute err: html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:39 [E] [server.go:2619] html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:45 [D] [controller.go:263] template Execute err: html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 14:38:45 [E] [server.go:2619] html/template:hehe.html: "\"" in attribute name: "name\" class=\"easyui-validatebox\""
+2017/10/28 15:18:02 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 15:21:22 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 15:26:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 15:33:11 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 15:35:47 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 15:36:26 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 15:44:03 [D] [controller.go:263] template Execute err: html/template:upMovie.html: "\"" in attribute name: "subtype\" class=\"easyui-validateb"
+2017/10/28 15:44:03 [E] [server.go:2619] html/template:upMovie.html: "\"" in attribute name: "subtype\" class=\"easyui-validateb"
+2017/10/28 15:44:05 [D] [controller.go:263] template Execute err: html/template:upMovie.html: "\"" in attribute name: "subtype\" class=\"easyui-validateb"
+2017/10/28 15:44:05 [E] [server.go:2619] html/template:upMovie.html: "\"" in attribute name: "subtype\" class=\"easyui-validateb"
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 15:55:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 16:05:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 16:14:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 16:46:22 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 16:50:27 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 16:52:44 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 16:52:48 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 17:00:18 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 17:14:44 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 17:37:50 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 17:44:33 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 17:46:10 [D] [controller.go:263] template Execute err: html/template:moviesCRUD.html: "<" in attribute name: "\r\n\t</div>\r\n\t    data-options=\"se"
+2017/10/28 17:46:10 [E] [server.go:2619] html/template:moviesCRUD.html: "<" in attribute name: "\r\n\t</div>\r\n\t    data-options=\"se"
+2017/10/28 17:46:41 [D] [controller.go:263] template Execute err: html/template:moviesCRUD.html: "<" in attribute name: "\r\n\t</div>\r\n\t    data-options=\"se"
+2017/10/28 17:46:41 [E] [server.go:2619] html/template:moviesCRUD.html: "<" in attribute name: "\r\n\t</div>\r\n\t    data-options=\"se"
+2017/10/28 17:47:01 [D] [controller.go:263] template Execute err: html/template:moviesCRUD.html: "<" in attribute name: "\r\n\t</div>\r\n\t    data-options=\"se"
+2017/10/28 17:47:01 [E] [server.go:2619] html/template:moviesCRUD.html: "<" in attribute name: "\r\n\t</div>\r\n\t    data-options=\"se"
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 17:47:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 17:49:47 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 17:53:25 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 18:04:57 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 21:40:12 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 21:42:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 21:44:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/28 21:50:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/demo/demo.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="/static/css/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/easyui/themes/icon.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="/static/css/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/static/css/easyui/locale/easyui-lang-zh_CN.js"></script>
+	<title></title>
+	<style type="text/css">
+		#dataTable td {
+					border-bottom: 1px solid #A8C7CE;
+					border-right: 1px solid #A8C7CE;
+					font-size: 12px;
+					height: 24px;
+					padding: 0px 3px 0px 3px;
+					color: #344B50;
+					font-size: 12px;
+		}
+		#dataTable table {
+					border-top: 1px solid #A8C7CE;
+					border-left: 1px solid #A8C7CE;
+		}
+
+		#dataTable th {
+					border-bottom: 1px solid #A8C7CE;
+					border-right: 1px solid #A8C7CE;
+					font-size: 12px;
+					height: 24px;
+					background-color: #a8d0f9;
+					color: #344B50;
+					font-size: 12px;
+		}
+		#fm{
+			margin:0;
+			padding:10px 30px;
+		}
+		.ftitle{
+			font-size:14px;
+			font-weight:bold;
+			color:#666;
+			padding:5px 0;
+			margin-bottom:10px;
+			border-bottom:1px solid #ccc;
+		}
+		.fitem{
+			margin-bottom:5px;
+		}
+		.fitem label{
+			display:inline-block;
+			width:80px;
+		}
+	</style>
+	
+</head>
+<body>
+	<!-- *****************修改数据**********开始********* -->
+
+	<table id="dg" style="width:100%;height:500px;display: none;" class="easyui-datagrid"
+			url="/api/getdata" title="影视资源增删改查" iconCls="icon-edit"
+			pagination="true" toolbar="#seraaa"
+			rownumbers="true" fitColumns="true" singleSelect="true">
+		<thead>
+			<tr>
+				<th field="id" width="30">豆瓣ID</th>
+				<th field="name" width="50">电影名</th>
+				<th field="genres" width="50">类型</th>
+				<th field="year" width="15">年份</th>
+				<th field="director" width="30">导演</th>
+				<th field="act" width="70">主演</th>
+				<th field="code" width="12">评分</th>
+				<th field="now_num" width="12">当前集数</th>
+				<th field="total_num" width="12">总共集数</th>
+				<th field="baidu_url" width="100">百度地址</th>
+				<th field="action" width="50" align="center" formatter="formatAction">操作</th>
+			</tr>
+		</thead>
+	</table>
+
+	<!-- *****************修改数据**********开始********* -->
+	<div id="dlg" class="easyui-dialog" style="width:400px;height:280px;padding:10px 20px;display: none;"  
+			closed="true" buttons="#dlg-buttons">  
+		<form id="fm" method="post" novalidate>  
+			<div class="fitem">  
+				<label>电影名：</label>  
+				<input name="name" class="easyui-validatebox" required="true">  
+			</div>  
+			<div class="fitem">  
+				<label>豆瓣ID：</label>  
+				<input name="id" class="easyui-validatebox" required="true">  
+			</div> 
+			<div class="fitem">  
+				<label>当前集数：</label>  
+				<input name="now_num" class="easyui-validatebox" required="true">  
+			</div>  
+			<div class="fitem">  
+				<label>百度链接：</label>  
+				<input name="baidu_url" class="easyui-validatebox" required="true">  
+			</div>  			
+		</form>  
+	</div> 
+	
+	<div id="dlg-buttons" style="display: none;">  
+		<a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="saveUser()" style="width:90px">保存</a>  
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')" style="width:90px">取消</a>  
+	</div>   
+
+	<!-- *****************修改数据**********结束*************** -->
+
+
+
+	<!-- *****************搜索开始**********开始*************** -->
+
+	<div id="seraaa" style="display: none;">
+		<input id="ss" class="easyui-searchbox" style="width:300px" data-options="searcher:doSearch,prompt:'Please Input Value',menu:'#mm'" style="margin-left: 600px" ></input>
+	</div>
+	    
+
+	<div id="mm" style="width:120px;display: none;">
+		<div data-options="name:'name'">影视名</div>	
+	    <div data-options="name:'id'">豆瓣ID</div>
+	    <div data-options="name:'director'">导演</div>
+	    <div data-options="name:'act'">主演</div>
+	    <div data-options="name:'genres'">类型</div>
+	</div>
+
+	<!-- *****************搜索**********结束*************** -->
+
+	<!--************查看详情界面 ***** 开始 ************ -->
+		<div id="details" class="easyui-dialog" style="width:900px;padding:10px 20px;display: none;" closed="true">
+			<div class="ftitle" style="text-align: center;font-size: 16px;font-weight: 600;margin-bottom: 5px" id="name_toobar">你的名字详情</div>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" height="450">
+				<tbody>
+					<tr>
+						<td valign="top">
+							<div id="dataTable">
+								<table width="800px" cellspacing="0" cellpadding="0" align="center">
+									<tbody>
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													影视名称:
+												</div>
+											</td>
+											<td height="25" id="name">
+												你的名字
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													豆瓣ID:
+												</div>
+											</td>
+											<td height="25" id="idd">
+												26683290
+											</td>
+
+										</tr>
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													当前集数:
+												</div>
+											</td>
+											<td height="25" id="now_num">
+												1
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													总共集数:
+												</div>
+											</td>
+											<td height="25" id="total_num">
+												1
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													电影/电视剧:
+												</div>
+											</td>
+											<td height="25" id="subtype">
+												电影
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													类型:
+												</div>
+											</td>
+											<td height="25" id="genres">
+												剧情/爱情/动画
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													豆瓣评分:
+												</div>
+											</td>
+											<td height="25" id="code">
+												8.5
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													评分人数:
+												</div>
+											</td>
+											<td height="25" id="ratings_count">
+												335319
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													导演:
+												</div>
+											</td>
+											<td height="25" id="director">
+												新海诚
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													主演:
+												</div>
+											</td>
+											<td height="25" id="act">
+												神木隆之介/上白石萌音/长泽雅美/市原悦子
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													上映日期:
+												</div>
+											</td>
+											<td height="25" id="year">
+												2016
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													制片国家/地区:
+												</div>
+											</td>
+											<td height="25" id="countries">
+												日本
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													更新时间:
+												</div>
+											</td>
+											<td height="25" id="up_time">
+												2017-03-09 16:56:04
+											</td>
+											<td width="120" height="25">
+												<div align="right">
+													又名:
+												</div>
+											</td>
+											<td height="25" id="other_name">
+												你的名字/君之名/Your Name
+											</td>
+										</tr>
+										
+										
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													网盘地址:
+												</div>
+											</td>
+											<td colspan="3" height="25" id="baidu_url">
+												https://pan.baidu.com/s/1o8jo2X8
+											</td>
+										</tr>
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													图片地址:
+												</div>
+											</td>
+											<td colspan="3" height="25" id="img_url">
+												https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2395733377.jpg
+											</td>
+										</tr>
+										<tr>
+											<td width="120" height="25">
+												<div align="right">
+													剧情简介:
+												</div>
+											</td>
+											<td colspan="3" height="25" id="log">
+											　　在远离大都会的小山村，住着巫女世家出身的高中女孩宫水三叶（上白石萌音 配音）。校园和家庭的原因本就让她充满烦恼，而近一段时间发生的奇怪事件，又让三叶摸不清头脑。不知从何时起，三叶在梦中就会变成一个住在东京的高中男孩。那里有陌生的同学和朋友，有亲切的前辈和繁华的街道，一切都是如此诱人而真实。另一方面，住在东京的高中男孩立花泷（神木隆之介 配音）则总在梦里来到陌生的小山村，以女孩子的身份过着全新的生活。许是受那颗神秘彗星的影响，立花和三叶在梦中交换了身份。他们以他者的角度体验着对方的人生，这期间有愤怒、有欢笑也有暖心。只是两人并不知道，身份交换的背后隐藏着重大而锥心的秘密…… 
+		　　本片为2016年度日本本土影片票房冠军。 ©豆瓣
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+								
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	<!--************查看详情界面 ***** 结束 ************ -->
+
+
+	<script type="text/javascript">
+		/**
+		增加操作按钮函数
+		**/
+		function formatAction(value,row,index){
+				var e = '<a href="#" onclick="viewDetails('+index+')">查看</a>&nbsp;&nbsp;  ';
+				var d = '<a href="#" onclick="editUser('+index+')">修改</a>&nbsp;&nbsp;  ';
+				var f = '<a href="#" onclick="deleteData('+index+')">删除</a>';
+				return e+d+f;
+		}
+		/**
+		查看详情函数
+		**/
+		function viewDetails(index){  
+			$('#dg').datagrid('selectRow',index);// 关键在这里  
+			var row = $('#dg').datagrid('getSelected'); 
+			$.getJSON("/api/singsdata?id="+row.id,function(data){
+				$("#idd").html(data.id);
+				$("#name").html(data.name);
+				$("#name_toobar").html(data.name+"详情");
+				$("#subtype").html(data.subtype);
+				$("#ratings_count").html(data.ratings_count);
+				$("#genres").html(data.genres);
+				$("#countries").html(data.countries);
+				$("#year").html(data.year);
+				$("#director").html(data.director);
+				$("#act").html(data.act);
+				$("#code").html(data.code);
+				$("#now_num").html(data.now_num);
+				$("#total_num").html(data.total_num);
+				$("#other_name").html(data.other_name);
+				$("#baidu_url").html(data.baidu_url);
+				$("#img_url").html(data.img_url);
+				$("#log").html(data.log);
+				$("#up_time").html(data.up_time);
+
+			}); 
+			if (row){  
+				$('#details').dialog('open').dialog('setTitle',row.name);  
+			}  
+		}  
+
+
+		function editUser(index){  
+			$('#dg').datagrid('selectRow',index);// 关键在这里  
+			var row = $('#dg').datagrid('getSelected');  
+			if (row){  
+				$('#dlg').dialog('open').dialog('setTitle','修改'+row.name+'数据');  
+				$('#fm').form('load',row);  
+				url = '/api/update?id='+row.id+'&now_num='+row.now_num+'&baidu_url='+row.baidu_url;  
+			}  
+		}  
+		/**
+		删除函数
+		**/
+		function deleteData(index){
+		$('#dg').datagrid('selectRow',index);// 关键在这里  
+		var row = $('#dg').datagrid('getSelected'); 
+		if (row){  
+				$.messager.confirm('删除警告！','确定删除<strong style="color:red;font-size:12px;">'+row.name+"</strong>?<br>一旦删除将不能恢复！",function(r){
+					if(r){
+						$.post("/api/deletedata",{id:row.id},function(result){
+							if(result.success){
+								$('#dg').datagrid('reload');
+							}else{
+								$.messager.show({
+									title:'错误提示',
+									msg:result.msg
+								});
+							}
+
+
+						},'json');
+
+					}
+
+				});  
+			} 		
+		
+		}
+		function saveUser(){
+			$('#fm').form('submit',{
+				url: url,
+				onSubmit: function(){
+					return $(this).form('validate');
+				},
+				success: function(result){
+					var result = eval('('+result+')');
+					if (result.success){
+						$('#dlg').dialog('close');		// close the dialog
+						$('#dg').datagrid('reload');	// reload the user data
+					} else {
+						$.messager.show({
+							title: 'Error',
+							msg: result.msg
+						});
+					}
+				}
+			});
+		}
+		function doSearch(value,name){
+			$('#dg').datagrid('load',{
+				mtype:name,
+				mval:value
+			});
+		}
+	</script>
+</body>
+</html>

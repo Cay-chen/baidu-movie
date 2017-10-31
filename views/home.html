@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>网盘管理系统</title>
+	<!-- <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/demo/demo.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script> -->
+
+	<link rel="stylesheet" type="text/css" href="/static/css/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/easyui/themes/icon.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="/static/css/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/static/css/easyui/locale/easyui-lang-zh_CN.js"></script>
+	<style type="text/css">
+		html, body, p, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,p {
+		 margin: 0; 
+		 padding: 0; 
+		 border: 0;
+		 outline: 0; 
+		 font-size: 100%;
+		 vertical-align: baseline;
+		 background: transparent; }
+		 li{list-style-type: none}
+	</style>
+	<script>           
+		function addTab(title, url){
+			if ($('#tt').tabs('exists', title)){
+				$('#tt').tabs('select', title);
+			} else {
+				var content = '<iframe scrolling="auto" frameborder="0"  src="'+url+'" style="width:100%;height:100%;"></iframe>';
+				$('#tt').tabs('add',{
+					title:title,
+					content:content,
+					closable:true
+				});
+			}
+		}
+	</script>
+
+</head>
+<body class="easyui-layout">
+	<div data-options="region:'north',split:true" style="background-color: #E8F1FF;height: 60px;">
+		<p style="width: 200px;float: left;position: relative;margin-left: 15px;font-size: 24px;font-weight: 800;line-height: 53px" >网盘数据管理系统</p>
+		<div style="float: right;margin-top: 5px;margin-right: 5px;width: 500px">
+			<a href="/?exit=true" class="easyui-linkbutton" iconCls="icon-undo" onclick="addTab('google','http://localhost/datagrid23/')" style="display: block; width: 80px;float: right;">退出系统</a>
+			<span class="today_time" style="display: block;float: right;position: absolute;bottom: 1px;right: 5px"></span>
+			 <script>
+                var spanTime = document.getElementsByClassName("today_time")[0];
+                var weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+                var showTime = function () {
+                    var nowTime = new Date();
+                    var month = nowTime.getMonth() + 1;
+                    var minTime = nowTime.getMinutes();
+                    var secTime = nowTime.getSeconds();
+                    if (secTime < 10) {
+                        secTime = "0" + secTime;
+                    }
+                    if (minTime < 10) {
+                        minTime = "0" + minTime;
+                    }
+                    spanTime.innerHTML = nowTime.getFullYear() + "年" + month + "月" + nowTime.getDate() + "日&nbsp" + weekday[nowTime.getDay()] + "&nbsp&nbsp" +
+                            nowTime.getHours() + ":" + minTime + ":" + secTime;
+                }
+                setInterval(showTime, 1000);
+            </script>
+			
+		</div>
+	</div>
+
+	<div data-options="region:'west',title:'功能列表',split:true,collapsible:false" style="width:177px;height: 100%">
+		<div style="width:160px;height:auto;background:#7190E0;padding:5px;float:left;" >
+			<div class="easyui-panel" title="用户管理" collapsible="true" style="width:160px;height:auto;padding:10px;">
+				<ul>
+							<li>
+								<span>
+									<a href="#"  style="text-decoration: none;font-size: 14px;margin-left: 10px" onclick="addTab('####','####')">用户查询</a>
+								</span>
+							</li>
+							<hr style=" height:1px;border:none;border-top:1px dotted #185598;margin-left:10px;margin-top:0px;margin-bottom:3px;width: 60px" />
+							<li>
+								<span>
+									<a href="#"  style="text-decoration: none;font-size: 14px;margin-left: 10px" onclick="addTab('####','####')">用户管理</a>
+								</span>
+							</li>
+							<hr style=" height:1px;border:none;border-top:1px dotted #185598;margin-left:10px;margin-top:0px;margin-bottom:3px;width: 60px" />
+							<li>
+								<span>
+									<a href="#"  style="text-decoration: none;font-size: 14px;margin-left: 10px" onclick="addTab('####','####')">用户信息</a>
+								</span>
+							</li>
+							<hr style=" height:1px;border:none;border-top:1px dotted #185598;margin-left:10px;margin-top:0px;margin-bottom:3px;width: 60px" />
+
+						</ul>	
+			</div>
+			<div class="easyui-panel" title="数据管理" collapsible="true" style="width:160px;height:auto;padding:10px;">
+						<ul>
+							<li>
+								<span>
+									<a href="#"  style="text-decoration: none;font-size: 14px;margin-left: 10px" onclick="addTab('数据查询','/view/datacrud')">数据查询</a>
+								</span>
+							</li>
+							<hr style=" height:1px;border:none;border-top:1px dotted #185598;margin-left:10px;margin-top:0px;margin-bottom:3px;width: 60px" />
+							<li>
+								<span>
+									<a href="#"  style="text-decoration: none;font-size: 14px;margin-left: 10px" onclick="addTab('数据上传','/view/updatamovie')">数据上传</a>
+								</span>
+							</li>
+							<hr style=" height:1px;border:none;border-top:1px dotted #185598;margin-left:10px;margin-top:0px;margin-bottom:3px;width: 60px" />
+							<li>
+								<span>
+									<a href="#"  style="text-decoration: none;font-size: 14px;margin-left: 10px" onclick="addTab('####','####')">数据查询</a>
+								</span>
+							</li>
+							<hr style=" height:1px;border:none;border-top:1px dotted #185598;margin-left:10px;margin-top:0px;margin-bottom:3px;width: 60px" />
+
+						</ul>	
+				
+			</div>
+		</div>
+
+	</div>
+	<div data-options="region:'center'" style="padding:5px;background:#eee;">
+		 <div id="tt" class="easyui-tabs" style="height:100%;height: 100%">
+			<div title="Home">
+				<iframe scrolling="auto" frameborder="0"  src="view/datacrud" style="width:100%;height:100%"></iframe>			
+			</div>
+		</div> 
+	</div>
+</body>
+</html>

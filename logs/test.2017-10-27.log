@@ -1,0 +1,33 @@
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:34
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:41
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/27 00:09:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/27 18:50:44 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 18:52:23 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 18:53:20 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 18:58:41 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 23:06:31 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 23:21:47 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 23:22:44 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] the request url is  /api/upmovie
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/upmoviedatacontrollers/post.tpl
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/template.go:73
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/controller.go:263
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/controller.go:214
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/controller.go:194
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:827
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/27 23:29:04 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/27 23:31:16 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 23:36:03 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/27 23:37:06 [I] [asm_amd64.s:2337] http server Running on http://:8080

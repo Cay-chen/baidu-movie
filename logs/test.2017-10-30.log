@@ -1,0 +1,174 @@
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:40
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 00:12:05 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:58
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 00:17:26 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:58
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 00:31:20 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:40
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 00:42:54 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:40
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 10:06:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:40
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 10:10:00 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 10:39:12 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 11:00:41 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 14:27:11 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:40
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:67
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 14:33:09 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 15:20:57 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 15:24:25 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] the request url is  /api/getdata
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not string
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/iface.go:172
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:42
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/api_get_movies_data.go:69
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 15:26:58 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 15:29:20 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 16:57:47 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 16:58:05 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:32:54 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:34:03 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:48:27 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:48:30 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:48:56 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:49:49 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:50:06 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/homecontroller/get.tpl
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/template.go:73
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/controller.go:263
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/controller.go:214
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/controller.go:194
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:827
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 17:50:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 17:56:38 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:58:25 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 17:58:29 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 18:08:15 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 18:09:52 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 21:21:54 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 21:28:21 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 21:32:36 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 21:33:02 [I] [asm_amd64.s:2337] http server Running on http://:8880
+2017/10/30 21:35:39 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:37:24 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:38:41 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:39:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:43:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:45:04 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:46:04 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 21:46:59 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 22:47:12 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:52
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 22:47:37 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 22:53:11 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:52
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 22:53:23 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/30 22:58:45 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:51
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:798
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/30 22:58:55 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337

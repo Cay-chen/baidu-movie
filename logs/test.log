@@ -1,0 +1,74 @@
+2017/10/31 09:24:39 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:63
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/31 09:25:18 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/31 09:30:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:64
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/31 09:30:31 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/31 10:05:10 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:63
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/31 10:05:19 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/31 10:07:12 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] the request url is  /home
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:509
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:491
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/panic.go:63
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/signal_windows.go:161
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:164
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/session/session.go:194
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/baidu-movie/controllers/view_home.go:63
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] E:/Go_WorkSpace/src/github.com/astaxie/beego/router.go:800
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:2619
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/net/http/server.go:1801
+2017/10/31 10:07:42 [C] [asm_amd64.s:509] D:/Go/src/runtime/asm_amd64.s:2337
+2017/10/31 10:27:45 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 10:49:54 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 12:37:43 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 12:57:55 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:10:53 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:20:06 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:36:49 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:44:18 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:46:18 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:46:38 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:47:51 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:49:29 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:51:14 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:51:25 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:51:37 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 13:52:04 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 14:07:33 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2017/10/31 14:49:51 [I] [asm_amd64.s:2337] http server Running on http://:8080
