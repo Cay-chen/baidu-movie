@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/cay/utils"
+	"baidu-movie/utils"
 )
 
 type HomeController struct {

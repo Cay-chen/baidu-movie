@@ -10,7 +10,7 @@ type ViewUpDataDoubanControllers struct {
 
 func (c *ViewUpDataDoubanControllers) Get() {
 	if c.GetSession("session_val") == nil || c.Ctx.GetCookie("cookie_val") == "" {
-		c.Redirect("/", 302)
+		c.Ctx.WriteString("error:请重新登录！")
 		c.StopRun()
 	}
 	c.TplName = "upMovie.html"

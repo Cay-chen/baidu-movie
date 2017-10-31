@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"github.com/cay/utils"
+	"baidu-movie/utils"
 	"strconv"
 	"strings"
 )

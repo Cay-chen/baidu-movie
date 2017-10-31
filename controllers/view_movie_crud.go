@@ -10,8 +10,8 @@ type ViewMovieCrudControllers struct {
 
 func (c *ViewMovieCrudControllers) Get() {
 	if c.GetSession("session_val") == nil || c.Ctx.GetCookie("cookie_val") == "" {
-		c.Redirect("/", 302)
-		c.StopRun()
+	c.Ctx.WriteString("error:请重新登录！")
+	c.StopRun()
 	}
 	c.TplName = "moviesCRUD.html"
 }

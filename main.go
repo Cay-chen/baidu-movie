@@ -16,6 +16,5 @@ func main() {
 	beego.SetLogger("file", `{"filename":"logs/test.log"}`)
 	orm.Debug = true
 	//orm.RunSyncdb("default", false, true)
-
 	beego.Run()
 }
